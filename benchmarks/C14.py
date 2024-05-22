@@ -12,7 +12,7 @@ from benchmarks.Exampler_V import get_example_by_name
 # sys.stdout = open(full_path, 'w')
 
 def main():
-    activations = ['SKIP']
+    activations = ['SQUARE'] * 1
     hidden_neurons = [10] * len(activations)
     example = get_example_by_name('C14')
     start = timeit.default_timer()
@@ -22,16 +22,15 @@ def main():
         "N_HIDDEN_NEURONS": hidden_neurons,
         "BATCH_SIZE": 500,
         "LEARNING_RATE": 0.1,
-        "LOSS_WEIGHT": (1.0, 1.0),
+        "LOSS_WEIGHT": (1.0, 1),
         "SPLIT_D": False,
         'BIAS': False,
-        'DEG': [4, 4, 0],
-        'max_iter': 20,
-        'counter_nums': 30,
-        'Global_Optimization': False,
+        'DEG': [2, 2, 0],
+        'max_iter': 10,
+        'counter_nums': 100,
         'ellipsoid': True,
         'x0': [10] * example.n,
-        'loss_optimization': False
+        'loss_optimization': False,
     }
     Config = CegisConfig(**opts)
     c = Cegis(Config)

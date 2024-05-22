@@ -12,21 +12,23 @@ def main():
     example = get_example_by_name('C6')
     start = timeit.default_timer()
 
-    example.D_zones.r = pow(5, 2)
+    ## example
+    example.D_zones.r = pow(100, 2)
 
     opts = {
         "ACTIVATION": activations,
         "EXAMPLE": example,
         "N_HIDDEN_NEURONS": hidden_neurons,
-        "BATCH_SIZE": 500,
+        "BATCH_SIZE": 100,
         "LEARNING_RATE": 0.1,
         "LOSS_WEIGHT": (1.0, 1.0),
         "SPLIT_D": False,
         'BIAS': False,
-        'DEG': [0, 0, 0],
-        'max_iter': 20,
-        'counter_nums': 130,
-        'ellipsoid': True
+        'DEG': [0, 4, 0],
+        'max_iter': 10,
+        'counter_nums': 200,
+        'ellipsoid': True,
+        'loss_optimization': True
     }
     Config = CegisConfig(**opts)
     c = Cegis(Config)

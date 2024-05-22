@@ -31,7 +31,7 @@ examples = {
             lambda x: -x[0],
             lambda x: -x[1]
         ],
-        name='C1'
+        name='C5'
     ),
     2: Example(
         n=2,
@@ -40,7 +40,7 @@ examples = {
             lambda x: -x[0] + x[0] * x[1],
             lambda x: -x[1]
         ],
-        name='C2'
+        name='C6'
     ),
     3: Example(
         n=2,
@@ -49,7 +49,7 @@ examples = {
             lambda x: -2 * x[0] + x[0] * x[1],
             lambda x: -x[1] + x[0] * x[1],
         ],
-        name='C3'
+        name='C7'
     ),
     4: Example(
         n=2,
@@ -58,7 +58,7 @@ examples = {
             lambda x: -x[0] + 2 * x[0]**2 * x[1],
             lambda x: -x[1]
         ],
-        name='C4'
+        name='C8'
     ),
     5: Example(
         n=2,
@@ -67,7 +67,7 @@ examples = {
             lambda x: -x[0] ** 3 + x[1],
             lambda x: -x[0] - x[1],
         ],
-        name='C5'
+        name='C9'
     ),
     6: Example(
         n=2,
@@ -76,7 +76,7 @@ examples = {
             lambda x: -x[0] ** 3 - x[1] ** 2,
             lambda x: x[0] * x[1] - x[1] ** 3,
         ],
-        name='C6'
+        name='C10'
     ),
     7: Example(
         n=2,
@@ -85,7 +85,7 @@ examples = {
             lambda x: -x[0] + x[1],
             lambda x: 0.1 * x[0] - 2 * x[1] - x[0] ** 2 + 0.1 * x[0] ** 3,
         ],
-        name='C7'
+        name='C11'
     ),
     8: Example(
         n=2,
@@ -95,28 +95,10 @@ examples = {
             lambda x: -x[1],
             lambda x: x[0] - x[1] * (1 - x[0] ** 2),
         ],
-        name='C8'
+        name='C12'
     ),
 
-    9: Example(
-        n=2,
-        D_zones=Zone(shape='ball', center=[0] * 2, r=pow(10, 2)),
-        f=[
-            lambda x: -x[1] - 3 / 2 * x[0] * x[1] - x[0] ** 3,
-            lambda x: x[0] + 3 * x[0] ** 2 + 9 / 4 * x[0] ** 3 - x[1] ** 3
-        ],
-        name='C9'
-    ),
-    10: Example(
-        n=2,
-        D_zones=Zone(shape='ball', center=[0] * 2, r=0.01** 2),
-        f=[
-            lambda x: -x[1],
-            lambda x: -x[0] - 4 * x[1] + 0.25 * (x[1] - 0.5 * x[0]) * (x[1] - 2 * x[0]) * (x[1] + 2 * x[0]) * (
-                        x[0] + x[1]),
-        ],
-        name='C10'
-    ),
+
     11: Example(
         n=2,
         D_zones=Zone(shape='ball', center=[0] * 2, r=1 ** 2),
@@ -124,7 +106,7 @@ examples = {
             lambda x: -x[0] - 1.5 * x[0] ** 2 * x[1] ** 3,
             lambda x: -x[1] ** 3 + 0.5 * x[0] ** 3 * x[1] ** 2
         ],
-        name='C11'
+        name='C13'
     ),
     12: Example(
         n=2,
@@ -133,17 +115,9 @@ examples = {
             lambda x: -x[0] - 3 / 2 * x[0] ** 2 * x[1] ** 3,
             lambda x: -x[1] ** 3 + 1 / 2 * (x[0] * x[1]) ** 2
         ],
-        name='C12'
+        name='C14'
     ),
-    13: Example(
-        n=2,
-        D_zones=Zone(shape='ball', center=[0] * 2, r=0.5 ** 2),
-        f=[
-            lambda x: x[1] - x[0] ** 3 + x[0] * x[1] ** 4,
-            lambda x: -x[0] ** 3 - x[1] ** 5
-        ],
-        name='C13'
-    ),
+
     14: Example(
         n=3,
         D_zones=Zone(shape='ball', center=[0] * 3, r=11 ** 2),
@@ -152,18 +126,9 @@ examples = {
             lambda x: -2 * x[1] + 0.1 * x[0] * x[1] ** 2 + x[2],
             lambda x: -x[2] - 1.5 * x[1]
         ],
-        name='C14'
+        name='C16'
     ),
-    15: Example(
-        n=3,
-        D_zones=Zone(shape='ball', center=[0] * 3, r=0.5 ** 2),
-        f=[
-            lambda x: -x[0] ** 3 - x[0] * x[2] ** 2,
-            lambda x: -x[1] - x[0] ** 2 * x[1],
-            lambda x: -x[2] + 3 * x[0] ** 2 * x[2] - 3 * x[2]
-        ],
-        name='C15'
-    ),
+
     16: Example(
         n=3,
         D_zones=Zone(shape='ball', center=[0] * 3, r=1 ** 2),
@@ -172,18 +137,9 @@ examples = {
             lambda x: -x[1] + x[2],
             lambda x: -x[2]
         ],
-        name='C16'
-    ),
-    17: Example(
-        n=3,
-        D_zones=Zone(shape='ball', center=[0] * 3, r=0.01 ** 2),
-        f=[
-            lambda x: x[1] - x[0] ** 2 * x[2] ** 2 - x[0] ** 3,
-            lambda x: -x[0] + x[2] ** 2 - x[1] ** 3,
-            lambda x: -x[2] - x[1] * x[2]
-        ],
         name='C17'
     ),
+
     18: Example(
         n=3,
         D_zones=Zone(shape='ball', center=[0] * 3, r=1 ** 2),
@@ -218,25 +174,6 @@ examples = {
         ],
         name='C20'
     ),
-    # 21: Example(
-    #     n=2,
-    #     D_zones=Zone(),
-    #     f=[
-    #         lambda x:-x[0] + x[0]*x[1],
-    #         lambda x:-x[1]
-    #     ],
-    #     name='D1'
-    # ),
-    22: Example(
-        n=3,
-        D_zones=Zone(shape='ball', center=[0]*3, r=0.3**2),
-        f=[
-            lambda x:-10*(x[0] - x[1]),
-            lambda x:28*x[0] - x[1] - x[0]*x[2],
-            lambda x:x[0]*x[1] - 8/3*x[2]
-        ],
-        name='D2'
-    ),
     23: Example(
         n=2,
         D_zones=Zone(shape='ball', center=[0]*2, r=0.3**2),
@@ -244,7 +181,7 @@ examples = {
             lambda x:-2*x[1],
             lambda x:0.8*x[0] + 10 * (x[0]**2 - 0.21) * x[1]
         ],
-        name='D3'
+        name='C1'
     ),
     24: Example(
         n=3,
@@ -254,7 +191,7 @@ examples = {
             lambda x:x[1] * (x[0]**2 + x[1]**2 - 1) + x[0] * (x[2]**2 + 1),
             lambda x:10 * x[2] * (x[2]**2 - 1)
         ],
-        name='D4'
+        name='C15'
     ),
     25:Example(
         n=2,
@@ -263,7 +200,7 @@ examples = {
             lambda x:-0.42 * x[0] - 1.05 * x[1] - 2.3 * x[0] ** 2 - 0.5 * x[0] * x[1] - x[0] ** 3,
             lambda x:1.98 * x[0] + x[0] * x[1],
         ],
-        name='D5'
+        name='C2'
     ),
     26:Example(
         n=2,
@@ -272,7 +209,7 @@ examples = {
             lambda x:-x[0] * (1 - x[0] * x[1]),
             lambda x:-x[1]
         ],
-        name='D6'
+        name='C3'
     ),
     27:Example(
         n=2,
@@ -281,7 +218,7 @@ examples = {
             lambda x:-5 * x[1] - 4 * x[0] + x[0] * x[1] ** 2 - 6 * x[0] ** 3,
             lambda x:-20 * x[0] - 4 * x[1] + 4 * x[0] ** 2 * x[1] + x[1] ** 3
         ],
-        name='D7'
+        name='C4'
     ),
 }
 

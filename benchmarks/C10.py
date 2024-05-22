@@ -7,24 +7,26 @@ from benchmarks.Exampler_V import get_example_by_name
 
 
 def main():
-    activations = ['SQUARE']
+    activations = ['SKIP']
     hidden_neurons = [10] * len(activations)
     example = get_example_by_name('C10')
     start = timeit.default_timer()
+
+    example.D_zones.r = pow(5, 2)
+
     opts = {
         "ACTIVATION": activations,
         "EXAMPLE": example,
         "N_HIDDEN_NEURONS": hidden_neurons,
         "BATCH_SIZE": 500,
-        "LEARNING_RATE": 0.01,
+        "LEARNING_RATE": 0.1,
         "LOSS_WEIGHT": (1.0, 1.0),
         "SPLIT_D": False,
         'BIAS': False,
-        'DEG': [2, 4, 0],
+        'DEG': [0, 0, 0],
         'max_iter': 20,
-        'counter_nums': 100,
-        'ellipsoid': True,
-        'loss_optimization': False,
+        'counter_nums': 130,
+        'ellipsoid': True
     }
     Config = CegisConfig(**opts)
     c = Cegis(Config)

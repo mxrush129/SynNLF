@@ -1,0 +1,10 @@
+samples: 100
+0 - loss: 1263386.75 - accuracy V: 0.0 accuracy Vdot: 0.0
+4 - loss: -0.012000000104308128 - accuracy V: 100.0 accuracy Vdot: 100.0
+iter: 1 
+V = 1.87377173676601*x1**2 - 0.840059772877422*x1*x2 + 1.07420838586117*x2**2
+SOS verification passed!
+Total learning time:0.0314747999999998
+Total counter-examples generating time:0
+Total sos verifying time:0.09494250000000015
+Elapsed Time: 0.36981220000000015

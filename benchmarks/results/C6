@@ -1,0 +1,18 @@
+samples: 500
+0 - loss: 151634886656.0 - accuracy V: 0.0 accuracy Vdot: 51.0
+10 - loss: 510363.90625 - accuracy V: 0.0 accuracy Vdot: 100.0
+20 - loss: 420778.5625 - accuracy V: 0.0 accuracy Vdot: 100.0
+30 - loss: 383640.3125 - accuracy V: 0.0 accuracy Vdot: 100.0
+40 - loss: 369062.84375 - accuracy V: 0.0 accuracy Vdot: 100.0
+50 - loss: 363892.875 - accuracy V: 0.0 accuracy Vdot: 100.0
+60 - loss: 362495.375 - accuracy V: 0.0 accuracy Vdot: 100.0
+70 - loss: 362567.15625 - accuracy V: 0.0 accuracy Vdot: 100.0
+80 - loss: 363198.78125 - accuracy V: 0.0 accuracy Vdot: 100.0
+90 - loss: 364039.3125 - accuracy V: 0.0 accuracy Vdot: 100.0
+iter: 1 
+V = 0.227292187831526*x1**2 - 0.0748670614528158*x1*x2 + 0.243201413227515*x2**2
+SOS verification passed!
+Total learning time:0.8538999999999999
+Total counter-examples generating time:0
+Total sos verifying time:0.07197419999999966
+Elapsed Time: 1.0713315

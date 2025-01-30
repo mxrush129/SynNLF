@@ -1,0 +1,34 @@
+samples: 1000
+0 - loss: 1597197254656.0 - accuracy V: 0.0 accuracy Vdot: 51.5
+10 - loss: 324008205615104.0 - accuracy V: 30.7 accuracy Vdot: 48.6
+20 - loss: 45592982061056.0 - accuracy V: 68.8 accuracy Vdot: 57.1
+30 - loss: 83590104743936.0 - accuracy V: 54.0 accuracy Vdot: 53.9
+40 - loss: 10653765992448.0 - accuracy V: 25.8 accuracy Vdot: 54.4
+50 - loss: 5684766179328.0 - accuracy V: 58.1 accuracy Vdot: 58.2
+60 - loss: 2421413380096.0 - accuracy V: 46.6 accuracy Vdot: 55.0
+70 - loss: 369602723840.0 - accuracy V: 0.0 accuracy Vdot: 50.9
+80 - loss: 138061692928.0 - accuracy V: 0.0 accuracy Vdot: 58.7
+90 - loss: 114340052992.0 - accuracy V: 0.0 accuracy Vdot: 57.7
+iter: 1 
+V = 0.0208647219094848*x1**2 - 0.00147757387437314*x1*x2 - 0.000629531603995238*x1*x3 - 0.00111848364723646*x2**2 + 0.0007226257327733*x2*x3 - 0.000158099891277015*x3**2
+DV is not satisfied.
+Add 100 counterexamples!
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+samples: 1100
+0 - loss: 19669923840.0 - accuracy V: 0.0 accuracy Vdot: 50.36363636363637
+10 - loss: 11172186112.0 - accuracy V: 0.0 accuracy Vdot: 59.72727272727273
+20 - loss: 3573746432.0 - accuracy V: 0.0 accuracy Vdot: 53.90909090909091
+30 - loss: 1507729536.0 - accuracy V: 0.0 accuracy Vdot: 61.45454545454545
+40 - loss: 515127328.0 - accuracy V: 0.0 accuracy Vdot: 60.36363636363637
+50 - loss: 173466304.0 - accuracy V: 0.0 accuracy Vdot: 60.90909090909091
+60 - loss: 193360880.0 - accuracy V: 0.0 accuracy Vdot: 48.90909090909091
+70 - loss: 116920008.0 - accuracy V: 0.0 accuracy Vdot: 60.54545454545455
+80 - loss: 23941038.0 - accuracy V: 0.0 accuracy Vdot: 47.63636363636363
+90 - loss: 9403283.0 - accuracy V: 0.0 accuracy Vdot: 65.0
+iter: 2 
+V = 1.46244972792264e-5*x1**2 + 4.11763913762384e-7*x1*x2 + 6.06790413683402e-7*x1*x3 + 3.99254921218565e-7*x2**2 - 1.11400888829835e-6*x2*x3 + 3.4735592636138e-7*x3**2
+SOS verification passed!
+Total learning time:3.3607147999999993
+Total counter-examples generating time:0.15412750000000042
+Total sos verifying time:0.7716044000000006
+Elapsed Time: 4.6548995

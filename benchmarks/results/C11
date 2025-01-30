@@ -1,0 +1,82 @@
+samples: 500
+0 - loss: 8.370186885267456e+16 - accuracy V: 0.0 accuracy Vdot: 39.0
+10 - loss: 6.472336185439027e+16 - accuracy V: 64.6 accuracy Vdot: 64.8
+20 - loss: 3.610267045645517e+16 - accuracy V: 51.4 accuracy Vdot: 63.8
+30 - loss: 9170230844588032.0 - accuracy V: 0.0 accuracy Vdot: 63.2
+40 - loss: 5374716705505280.0 - accuracy V: 0.0 accuracy Vdot: 63.4
+50 - loss: 5740233454780416.0 - accuracy V: 0.0 accuracy Vdot: 62.2
+60 - loss: 1158616686002176.0 - accuracy V: 0.0 accuracy Vdot: 63.2
+70 - loss: 1100174327808000.0 - accuracy V: 0.0 accuracy Vdot: 64.6
+80 - loss: 592784071327744.0 - accuracy V: 0.0 accuracy Vdot: 59.6
+90 - loss: 141856830652416.0 - accuracy V: 0.0 accuracy Vdot: 56.8
+iter: 1 
+V = -0.00045091515832358*x1**2 + 0.00144744339746356*x1*x2 - 0.00221032097107789*x2**2
+DV is not satisfied.
+Add 130 counterexamples!
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+samples: 630
+0 - loss: 39276754501632.0 - accuracy V: 0.0 accuracy Vdot: 70.7936507936508
+10 - loss: 5735557103616.0 - accuracy V: 0.0 accuracy Vdot: 71.74603174603175
+20 - loss: 7322388135936.0 - accuracy V: 0.0 accuracy Vdot: 70.95238095238095
+30 - loss: 25506737029120.0 - accuracy V: 0.0 accuracy Vdot: 71.9047619047619
+40 - loss: 31457087062016.0 - accuracy V: 0.0 accuracy Vdot: 71.26984126984127
+50 - loss: 33221920161792.0 - accuracy V: 0.0 accuracy Vdot: 71.9047619047619
+60 - loss: 18748134129664.0 - accuracy V: 0.0 accuracy Vdot: 70.7936507936508
+70 - loss: 21123479633920.0 - accuracy V: 0.0 accuracy Vdot: 72.38095238095238
+80 - loss: 15062966206464.0 - accuracy V: 0.0 accuracy Vdot: 71.58730158730158
+90 - loss: 3459561553920.0 - accuracy V: 0.0 accuracy Vdot: 71.74603174603175
+iter: 2 
+V = -7.72770927216564e-5*x1**2 + 0.000490978383552645*x1*x2 - 0.00027927490065231*x2**2
+DV is not satisfied.
+Add 130 counterexamples!
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+samples: 760
+0 - loss: 8342717071360.0 - accuracy V: 0.0 accuracy Vdot: 77.23684210526316
+10 - loss: 3907360129024.0 - accuracy V: 0.0 accuracy Vdot: 75.78947368421052
+20 - loss: 968135409664.0 - accuracy V: 0.0 accuracy Vdot: 77.36842105263158
+30 - loss: 734319280128.0 - accuracy V: 0.0 accuracy Vdot: 76.57894736842105
+40 - loss: 1213367189504.0 - accuracy V: 0.0 accuracy Vdot: 76.97368421052632
+50 - loss: 668338159616.0 - accuracy V: 0.0 accuracy Vdot: 75.92105263157895
+60 - loss: 75540324352.0 - accuracy V: 0.0 accuracy Vdot: 76.3157894736842
+70 - loss: 595752255488.0 - accuracy V: 0.0 accuracy Vdot: 77.10526315789474
+80 - loss: 425338109952.0 - accuracy V: 0.0 accuracy Vdot: 76.3157894736842
+90 - loss: 241807671296.0 - accuracy V: 0.0 accuracy Vdot: 76.44736842105263
+iter: 3 
+V = -1.49956845894809e-6*x1**2 + 6.99528656001885e-6*x1*x2 - 4.46080966079382e-6*x2**2
+DV is not satisfied.
+No counterexamples were found!
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+samples: 760
+0 - loss: 119753023488.0 - accuracy V: 0.0 accuracy Vdot: 77.23684210526316
+10 - loss: 43245510656.0 - accuracy V: 0.0 accuracy Vdot: 77.23684210526316
+20 - loss: 48901738496.0 - accuracy V: 0.0 accuracy Vdot: 25.394736842105264
+30 - loss: 66288537600.0 - accuracy V: 0.0 accuracy Vdot: 76.71052631578948
+40 - loss: 50770767872.0 - accuracy V: 0.0 accuracy Vdot: 76.1842105263158
+50 - loss: 32106231808.0 - accuracy V: 0.0 accuracy Vdot: 76.1842105263158
+60 - loss: 17161705472.0 - accuracy V: 0.0 accuracy Vdot: 77.23684210526316
+70 - loss: 6218809344.0 - accuracy V: 0.0 accuracy Vdot: 77.23684210526316
+80 - loss: 12182712320.0 - accuracy V: 0.0 accuracy Vdot: 75.0
+90 - loss: 14630807552.0 - accuracy V: 0.0 accuracy Vdot: 76.71052631578948
+iter: 4 
+V = -1.38843702024382e-7*x1**2 + 6.31585889501315e-7*x1*x2 - 4.7659177789742e-7*x2**2
+DV is not satisfied.
+No counterexamples were found!
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+samples: 760
+0 - loss: 10733745152.0 - accuracy V: 0.0 accuracy Vdot: 77.23684210526316
+10 - loss: 7767644672.0 - accuracy V: 0.0 accuracy Vdot: 76.1842105263158
+20 - loss: 5163180544.0 - accuracy V: 0.0 accuracy Vdot: 76.1842105263158
+30 - loss: 3232837888.0 - accuracy V: 0.0 accuracy Vdot: 76.71052631578948
+40 - loss: 1984142720.0 - accuracy V: 0.0 accuracy Vdot: 77.36842105263158
+50 - loss: 1131177472.0 - accuracy V: 0.0 accuracy Vdot: 77.23684210526316
+60 - loss: 544420544.0 - accuracy V: 0.0 accuracy Vdot: 76.84210526315789
+70 - loss: 148359872.0 - accuracy V: 0.0 accuracy Vdot: 75.78947368421052
+80 - loss: 509356896.0 - accuracy V: 0.0 accuracy Vdot: 74.47368421052632
+90 - loss: 518317344.0 - accuracy V: 0.0 accuracy Vdot: 76.44736842105263
+iter: 5 
+V = -5.0187988550591e-9*x1**2 + 2.44481920347798e-8*x1*x2 - 2.00461132291878e-8*x2**2
+SOS verification passed!
+Total learning time:5.647714500000001
+Total counter-examples generating time:0.39919099999999963
+Total sos verifying time:0.9766044000000003
+Elapsed Time: 7.572317999999999
